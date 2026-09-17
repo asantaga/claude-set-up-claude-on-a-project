@@ -7,4 +7,4 @@ I explicity added three rules
 - never allow force push's
 - always ask if i want to do a push
 
-claude /memory shows that the permissions have been loaded and the permissions are visible
+Running /memory confirms the CLAUDE.md is loaded, and running /permissions displays the configured allow/ask/deny rules."
