@@ -6,3 +6,5 @@ I explicity added three rules
 - always allow tests
 - never allow force push's
 - always ask if i want to do a push
+
+claude /memory shows that the permissions have been loaded and the permissions are visible

@@ -13,7 +13,8 @@ A small Express API (in-memory data, no database) used as a course starter proje
 
 ## Conventions
 
-- Use `require`/`module.exports` (CommonJS), not ES modules — matches `"sourceType": "script"` in `.eslintrc.json`.
+- Use `require`/`module.exports` (CommonJS), not ES modules — matches `"sourceType": "script"` in `.eslintrc.json`. E.g. Use CommonJS require /module.exports and not the ES module import /export
+
 - One route file per resource under `routes/` (e.g. `users.js`, `health.js`), mounted in `server.js`.
 - Route handlers call into `db/store.js` for data access rather than manipulating the in-memory arrays directly.
 
